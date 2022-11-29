@@ -42,6 +42,16 @@ public class ServiceTest
     }
     */
     [TestMethod]
+    public void getPatientDosisLet()
+    {
+        int laegemiddelId = 4;
+        int patientId = 7;
+
+        double anbefaletDosis = service.GetAnbefaletDosisPerDøgn(patientId, laegemiddelId);
+        Assert.AreEqual(anbefaletDosis, 0.01);
+    }
+
+    [TestMethod]
     public void getPatientDosisMiddel()
     {
         int laegemiddelId = 4;
@@ -55,8 +65,7 @@ public class ServiceTest
     public void getPatientDosisTung()
     {
         int laegemiddelId = 4;
-        Patient p = new Patient("010120-4345", "Torben Jensen", 120);
-        int patientId = 0;
+        int patientId = 6;
 
         double anbefaletDosis = service.GetAnbefaletDosisPerDøgn(patientId, laegemiddelId);
         Assert.AreEqual(anbefaletDosis, 0.02); 

@@ -18,6 +18,7 @@ public class Patient {
         this.cprnr = "";
         this.navn = "";
     }
+    
 
     public override String ToString() {
         return navn + " " + cprnr;
