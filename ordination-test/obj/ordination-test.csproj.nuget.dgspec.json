@@ -1,0 +1,225 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Bruger\\miniprojekt-ordination\\ordination-test\\ordination-test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Bruger\\miniprojekt-ordination\\ordination-api\\ordination-api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bruger\\miniprojekt-ordination\\ordination-api\\ordination-api.csproj",
+        "projectName": "ordination-api",
+        "projectPath": "C:\\Users\\Bruger\\miniprojekt-ordination\\ordination-api\\ordination-api.csproj",
+        "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruger\\miniprojekt-ordination\\ordination-api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Bruger\\miniprojekt-ordination\\shared\\shared.csproj": {
+                "projectPath": "C:\\Users\\Bruger\\miniprojekt-ordination\\shared\\shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bruger\\miniprojekt-ordination\\ordination-test\\ordination-test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bruger\\miniprojekt-ordination\\ordination-test\\ordination-test.csproj",
+        "projectName": "ordination-test",
+        "projectPath": "C:\\Users\\Bruger\\miniprojekt-ordination\\ordination-test\\ordination-test.csproj",
+        "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruger\\miniprojekt-ordination\\ordination-test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Bruger\\miniprojekt-ordination\\ordination-api\\ordination-api.csproj": {
+                "projectPath": "C:\\Users\\Bruger\\miniprojekt-ordination\\ordination-api\\ordination-api.csproj"
+              },
+              "C:\\Users\\Bruger\\miniprojekt-ordination\\shared\\shared.csproj": {
+                "projectPath": "C:\\Users\\Bruger\\miniprojekt-ordination\\shared\\shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Bruger\\miniprojekt-ordination\\shared\\shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bruger\\miniprojekt-ordination\\shared\\shared.csproj",
+        "projectName": "shared",
+        "projectPath": "C:\\Users\\Bruger\\miniprojekt-ordination\\shared\\shared.csproj",
+        "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruger\\miniprojekt-ordination\\shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
