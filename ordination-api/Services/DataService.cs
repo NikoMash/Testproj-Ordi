@@ -163,11 +163,11 @@ public class DataService
      public DagligSkæv OpretDagligSkaev(int patientId, int laegemiddelId, Dosis[] doser, DateTime startDato, DateTime slutDato) {
         Patient P = db.Patienter.FirstOrDefault(p => p.PatientId == patientId);
         Laegemiddel lm = db.Laegemiddler.FirstOrDefault(l => l.LaegemiddelId == laegemiddelId);
-        List<Dosis> LD = new List<Dosis>();
-        var ds = new DagligSkæv { laegemiddel = lm, doser = LD, startDen = startDato, slutDen = slutDato};
+        
+        var ds = new DagligSkæv(startDato.Date, slutDato.Date, lm, doser);
         P.ordinationer.Add(ds);
         db.SaveChanges();
-        return null!;
+        return ds;
     }
 
     public string AnvendOrdination(int id, Dato dato) {

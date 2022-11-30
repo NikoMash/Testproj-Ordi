@@ -10,3 +10,15 @@ C:\Users\Bruger\miniprojekt-ordination\shared\obj\Debug\net6.0\shared.dll
 C:\Users\Bruger\miniprojekt-ordination\shared\obj\Debug\net6.0\refint\shared.dll
 C:\Users\Bruger\miniprojekt-ordination\shared\obj\Debug\net6.0\shared.pdb
 C:\Users\Bruger\miniprojekt-ordination\shared\obj\Debug\net6.0\ref\shared.dll
+C:\Users\Nikos\Testproj-ordi\shared\bin\Debug\net6.0\shared.deps.json
+C:\Users\Nikos\Testproj-ordi\shared\bin\Debug\net6.0\shared.dll
+C:\Users\Nikos\Testproj-ordi\shared\bin\Debug\net6.0\shared.pdb
+C:\Users\Nikos\Testproj-ordi\shared\obj\Debug\net6.0\shared.csproj.AssemblyReference.cache
+C:\Users\Nikos\Testproj-ordi\shared\obj\Debug\net6.0\shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nikos\Testproj-ordi\shared\obj\Debug\net6.0\shared.AssemblyInfoInputs.cache
+C:\Users\Nikos\Testproj-ordi\shared\obj\Debug\net6.0\shared.AssemblyInfo.cs
+C:\Users\Nikos\Testproj-ordi\shared\obj\Debug\net6.0\shared.csproj.CoreCompileInputs.cache
+C:\Users\Nikos\Testproj-ordi\shared\obj\Debug\net6.0\shared.dll
+C:\Users\Nikos\Testproj-ordi\shared\obj\Debug\net6.0\refint\shared.dll
+C:\Users\Nikos\Testproj-ordi\shared\obj\Debug\net6.0\shared.pdb
+C:\Users\Nikos\Testproj-ordi\shared\obj\Debug\net6.0\ref\shared.dll

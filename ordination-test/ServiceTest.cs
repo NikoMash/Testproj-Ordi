@@ -26,21 +26,7 @@ public class ServiceTest
     {
         Assert.IsNotNull(service.GetPatienter());
     }
-    /*
-    [TestMethod]
-    public void OpretDagligFast()
-    {
-        Patient patient = service.GetPatienter().First();
-        Laegemiddel lm = service.GetLaegemidler().First();
-
-        Assert.AreEqual(1, service.GetDagligFaste().Count());
-
-        service.OpretDagligFast(patient.PatientId, lm.LaegemiddelId,
-            2, 2, 1, 0, DateTime.Now, DateTime.Now.AddDays(3));
-
-        Assert.AreEqual(2, service.GetDagligFaste().Count());
-    }
-    */
+    
     [TestMethod]
     public void getPatientDosisLet()
     {
@@ -70,5 +56,14 @@ public class ServiceTest
         double anbefaletDosis = service.GetAnbefaletDosisPerDøgn(patientId, laegemiddelId);
         Assert.AreEqual(anbefaletDosis, 0.02); 
     }
-    
+
+    [TestMethod]
+    public void PNOprettelse()
+    {
+        Patient p = service.GetPatienter().First();
+        Laegemiddel lm = service.GetLaegemidler().First();
+
+        service.OpretPN(p.PatientId, lm.LaegemiddelId, 5, DateTime.Now, DateTime.Now.AddDays(10));
+        Assert.AreEqual(5, service.GetPNs().Count());
+    }
 }

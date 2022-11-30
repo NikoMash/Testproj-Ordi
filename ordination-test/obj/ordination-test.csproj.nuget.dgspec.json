@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bruger\\miniprojekt-ordination\\ordination-test\\ordination-test.csproj": {}
+    "C:\\Users\\Nikos\\Testproj-ordi\\ordination-test\\ordination-test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bruger\\miniprojekt-ordination\\ordination-api\\ordination-api.csproj": {
+    "C:\\Users\\Nikos\\Testproj-ordi\\ordination-api\\ordination-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bruger\\miniprojekt-ordination\\ordination-api\\ordination-api.csproj",
+        "projectUniqueName": "C:\\Users\\Nikos\\Testproj-ordi\\ordination-api\\ordination-api.csproj",
         "projectName": "ordination-api",
-        "projectPath": "C:\\Users\\Bruger\\miniprojekt-ordination\\ordination-api\\ordination-api.csproj",
-        "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bruger\\miniprojekt-ordination\\ordination-api\\obj\\",
+        "projectPath": "C:\\Users\\Nikos\\Testproj-ordi\\ordination-api\\ordination-api.csproj",
+        "packagesPath": "C:\\Users\\Nikos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nikos\\Testproj-ordi\\ordination-api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nikos\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Bruger\\miniprojekt-ordination\\shared\\shared.csproj": {
-                "projectPath": "C:\\Users\\Bruger\\miniprojekt-ordination\\shared\\shared.csproj"
+              "C:\\Users\\Nikos\\Testproj-ordi\\shared\\shared.csproj": {
+                "projectPath": "C:\\Users\\Nikos\\Testproj-ordi\\shared\\shared.csproj"
               }
             }
           }
@@ -78,21 +78,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Bruger\\miniprojekt-ordination\\ordination-test\\ordination-test.csproj": {
+    "C:\\Users\\Nikos\\Testproj-ordi\\ordination-test\\ordination-test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bruger\\miniprojekt-ordination\\ordination-test\\ordination-test.csproj",
+        "projectUniqueName": "C:\\Users\\Nikos\\Testproj-ordi\\ordination-test\\ordination-test.csproj",
         "projectName": "ordination-test",
-        "projectPath": "C:\\Users\\Bruger\\miniprojekt-ordination\\ordination-test\\ordination-test.csproj",
-        "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bruger\\miniprojekt-ordination\\ordination-test\\obj\\",
+        "projectPath": "C:\\Users\\Nikos\\Testproj-ordi\\ordination-test\\ordination-test.csproj",
+        "packagesPath": "C:\\Users\\Nikos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nikos\\Testproj-ordi\\ordination-test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nikos\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -106,11 +106,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Bruger\\miniprojekt-ordination\\ordination-api\\ordination-api.csproj": {
-                "projectPath": "C:\\Users\\Bruger\\miniprojekt-ordination\\ordination-api\\ordination-api.csproj"
+              "C:\\Users\\Nikos\\Testproj-ordi\\ordination-api\\ordination-api.csproj": {
+                "projectPath": "C:\\Users\\Nikos\\Testproj-ordi\\ordination-api\\ordination-api.csproj"
               },
-              "C:\\Users\\Bruger\\miniprojekt-ordination\\shared\\shared.csproj": {
-                "projectPath": "C:\\Users\\Bruger\\miniprojekt-ordination\\shared\\shared.csproj"
+              "C:\\Users\\Nikos\\Testproj-ordi\\shared\\shared.csproj": {
+                "projectPath": "C:\\Users\\Nikos\\Testproj-ordi\\shared\\shared.csproj"
               }
             }
           }
@@ -162,21 +162,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Bruger\\miniprojekt-ordination\\shared\\shared.csproj": {
+    "C:\\Users\\Nikos\\Testproj-ordi\\shared\\shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bruger\\miniprojekt-ordination\\shared\\shared.csproj",
+        "projectUniqueName": "C:\\Users\\Nikos\\Testproj-ordi\\shared\\shared.csproj",
         "projectName": "shared",
-        "projectPath": "C:\\Users\\Bruger\\miniprojekt-ordination\\shared\\shared.csproj",
-        "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bruger\\miniprojekt-ordination\\shared\\obj\\",
+        "projectPath": "C:\\Users\\Nikos\\Testproj-ordi\\shared\\shared.csproj",
+        "packagesPath": "C:\\Users\\Nikos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nikos\\Testproj-ordi\\shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nikos\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -217,7 +217,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
