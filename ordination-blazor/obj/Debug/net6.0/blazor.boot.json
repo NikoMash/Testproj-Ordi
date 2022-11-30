@@ -199,14 +199,14 @@
       "mscorlib.dll": "sha256-cx\/3nJhFns3tZhQNQOyiRyKJESKxOjLVufzWnri6KSA=",
       "netstandard.dll": "sha256-yWufW5W4SSfjocBcWTEDqnFwTd\/VYtLMc2Y9mPmlggc=",
       "System.Private.CoreLib.dll": "sha256-H009wzPwRoDZlwvpN4KLCsUwN7Y1AmjKB3PIEHA7ObQ=",
-      "shared.dll": "sha256-MQQNGlZJxqMY0iaZ7B+RE6MdUlmrMBDbqWZTdtdmL08=",
+      "shared.dll": "sha256-i76YiNZxm34Zmk03wZ3pE6IWZp3A88UOlmMmDnmoEl0=",
       "ordination-blazor.dll": "sha256-aUCMTrbwRUQ6VwR\/y+698O+Kq25\/nM1Qjo8hRvqpYzs="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "shared.pdb": "sha256-f9OV1TyowrNDRbsPBv2H\/Xjgc3493JmARoTFqeotd+c=",
+      "shared.pdb": "sha256-vpgswFcLXfvEfDAP\/5H6qCVNdDReJftIa\/7\/DcoGcY8=",
       "ordination-blazor.pdb": "sha256-0HA7+HISFdSK8EF5fN15aQxiIiNvM1m8fAVPzvuFagA="
     },
     "runtime": {
