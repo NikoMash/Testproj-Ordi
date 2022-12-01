@@ -142,7 +142,7 @@ public class DataService
         var pn = new PN { antalEnheder = antal, laegemiddel = lm, startDen = startDato, slutDen = slutDato };
         p.ordinationer.Add(pn);
         db.SaveChanges();
-        return null!;
+        return pn;
     }
 
     public DagligFast OpretDagligFast(int patientId, int laegemiddelId, 
@@ -157,7 +157,7 @@ public class DataService
         var df = new DagligFast { laegemiddel = LM, MorgenDosis = MD, MiddagDosis = MID, AftenDosis = AD, NatDosis = ND, startDen = startDato, slutDen = slutDato };
         p.ordinationer.Add(df);
         db.SaveChanges();
-        return null!;
+        return df;
     }
 
      public DagligSkæv OpretDagligSkaev(int patientId, int laegemiddelId, Dosis[] doser, DateTime startDato, DateTime slutDato) {

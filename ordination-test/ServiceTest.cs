@@ -66,4 +66,15 @@ public class ServiceTest
         service.OpretPN(p.PatientId, lm.LaegemiddelId, 5, DateTime.Now, DateTime.Now.AddDays(10));
         Assert.AreEqual(5, service.GetPNs().Count());
     }
+
+    [TestMethod]
+    public void ordinationsAnvendelse()
+    {
+        PN pn = service.GetPNs().First();
+        Dato dato = new Dato();
+        dato.dato = new DateTime(2021, 01, 03);
+
+        service.AnvendOrdination(pn.OrdinationId, dato);
+        Assert.AreEqual(1, pn.dates.Count());
+    }
 }
