@@ -31,8 +31,8 @@ public class DataService
             patients[2] = new Patient("050972-1233", "Hans Jørgensen", 89.4);
             patients[3] = new Patient("011064-1522", "Ulla Nielsen", 59.9);
             patients[4] = new Patient("123456-1234", "Ib Hansen", 87.7);
-            patients[5] = new Patient("010191", "Torben Jensen", 120);
-            patients[6] = new Patient("020217", "Maria Olsen", 24);
+            patients[5] = new Patient("010191-3265", "Torben Jensen", 120);
+            patients[6] = new Patient("020217-9866", "Maria Olsen", 24);
 
 
 
@@ -175,6 +175,7 @@ public class DataService
         var checkordination = db.PNs.FirstOrDefault(p => p.OrdinationId == id);
         if(checkordination.givDosis(dato) == true){
             checkordination.dates.Add(dato);
+
             db.SaveChanges();
             return "Godkendt";
         }else{
