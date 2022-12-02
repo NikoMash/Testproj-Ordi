@@ -44,6 +44,7 @@
             <input @bind="antalEnheder" type="number" class="form-control" id="antal-enheder">
             </div>
         </div>
+        
         <div class="form-group row">
             <div class="col-sm-8">
             <button class="btn btn-primary" @onclick="Opret">Opret ordination</button>
@@ -73,12 +74,14 @@
     private async void Opret() {
         if (Patient == null || laegemiddel == null) {
             return;
-        }
+        } else if (StartDato > SlutDato)
+        {
+            throw new InvalidOperationException("Start dato må ikke være efter slut dato!");
+        } 
         Console.WriteLine("Opret");
         PN pn = await apiService.OpretPN(Patient.id, laegemiddel.LaegemiddelId, antalEnheder, StartDato, SlutDato);
         Console.WriteLine("Oprettet!");
         Console.WriteLine(pn);
         onDone?.Invoke($"Oprettet PN ordination for {Patient.navn}!");
     }
-
 }

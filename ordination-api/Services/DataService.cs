@@ -144,7 +144,7 @@ public class DataService
         db.SaveChanges();
         return pn;
     }
-
+   
     public DagligFast OpretDagligFast(int patientId, int laegemiddelId, 
         double antalMorgen, double antalMiddag, double antalAften, double antalNat, 
         DateTime startDato, DateTime slutDato) {
@@ -154,6 +154,7 @@ public class DataService
         Dosis MID = new Dosis { antal = antalMiddag};
         Dosis AD = new Dosis { antal = antalAften};
         Dosis ND = new Dosis{ antal = antalNat};
+        
         var df = new DagligFast { laegemiddel = LM, MorgenDosis = MD, MiddagDosis = MID, AftenDosis = AD, NatDosis = ND, startDen = startDato, slutDen = slutDato };
         p.ordinationer.Add(df);
         db.SaveChanges();

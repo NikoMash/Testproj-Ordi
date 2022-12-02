@@ -102,7 +102,10 @@
     private async void Opret() {
         if (Patient == null || laegemiddel == null) {
             return;
-        }
+        }else if (StartDato > SlutDato)
+        {
+            throw new InvalidOperationException("Start dato må ikke være efter slut dato!");
+        } 
         Console.WriteLine("Opret");
         var ordination = await apiService.OpretDagligSkaev(Patient.id, laegemiddel.LaegemiddelId, doser.ToArray(), StartDato, SlutDato);
         Console.WriteLine("Oprettet!");
